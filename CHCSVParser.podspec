@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
     spec.social_media_url      = "http://twitter.com/davedelong"
     spec.ios.deployment_target = "6.0"
     spec.osx.deployment_target = "10.7"
+    spec.watchos.deployment_target = "3.0"
     spec.source                = { :git => "https://github.com/davedelong/CHCSVParser.git", :tag => "2.1.0" }
     spec.source_files          = "CHCSVParser/CHCSVParser/CHCSVParser.{h,m}"
     spec.requires_arc          = true
